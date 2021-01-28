@@ -136,7 +136,7 @@ fi
 alias python='python3'
 
 #update
-alias upd='sudo zypper -n ref && sudo zypper -n dup && sudo zypper -n patch'
+alias upd='sudo dnf upgrade'
 
 # some more ls aliases
 alias ll='ls -lh'
