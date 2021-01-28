@@ -136,7 +136,7 @@ fi
 alias python='python3'
 
 #update
-alias upd='sudo dnf upgrade'
+alias upd='sudo apt -y update && sudo apt -y upgrade && sudo apt -y autoremove && sudo apt -y autoclean'
 
 # some more ls aliases
 alias ll='ls -lh'
