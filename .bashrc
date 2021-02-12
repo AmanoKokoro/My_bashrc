@@ -175,3 +175,6 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
 # Composer path
 export PATH=~/.config/composer/vendor/bin:$PATH
+
+#Android platform-tools path
+export PATH=/home/onesilver/Android/Sdk/platform-tools:$PATH
